@@ -1,6 +1,8 @@
 import Head from "next/head";
+import Events from "../Components/Events";
 import Header from "../components/Header";
 import Hero from "../Components/Hero";
+import Footer from "../Components/Footer";
 
 export default function Home() {
   return (
@@ -14,6 +16,8 @@ export default function Home() {
       <main className="grid-container">
         <Header />
         <Hero />
+        <Events />
+        <Footer />
       </main>
     </div>
   );
